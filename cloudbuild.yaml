@@ -27,3 +27,6 @@ steps:
 
 images:
   - 'us-central1-docker.pkg.dev/project-3195f440-5862-4ea9-8b3/java-backend-repo/java-hello-world:$COMMIT_SHA'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
