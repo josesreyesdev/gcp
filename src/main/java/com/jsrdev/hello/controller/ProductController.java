@@ -11,4 +11,10 @@ public class ProductController {
     public String index() {
         return "All products";
     }
+
+    @GetMapping("/id")
+    public String id() {
+        return "Product ID";
+    }
+
 }
