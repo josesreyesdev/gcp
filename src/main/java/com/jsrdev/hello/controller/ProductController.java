@@ -17,4 +17,9 @@ public class ProductController {
         return "Product ID";
     }
 
+    @GetMapping("/id2")
+    public String id2() {
+        return "Product ID 02";
+    }
+
 }
